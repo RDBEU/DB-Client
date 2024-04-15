@@ -1,0 +1,103 @@
+.bigWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: center;
+    gap: 3rem;
+}
+.bigWrapper div{
+    width: 50%;
+    height: 100vh;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1rem;
+}
+.bigWrapper :nth-child(2){
+    height: auto;
+}
+.link{
+    width: 10%;
+}
+
+ul li{
+    list-style: none;
+}
+
+#secondPart{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.wrapper{
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to top,  #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+    border-radius: 30px;
+    border: 1px solid #8F9092;
+    box-shadow: inset 0 0 3px 0 #CECFD1;
+    transition: all .2s ease;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #606060;
+    text-shadow: 0 1px #fff;
+}
+.wrapper:hover{  
+     -webkit-box-shadow: inset 0 0 30px black;
+    -moz-box-shadow: inset 0 0 30px black;
+    box-shadow: inset 0 0 30px black;
+}
+.wrapper:active{
+ transform: scale(0.95);
+ opacity: 0.9;
+}
+
+fieldset{
+    border: none;
+}
+
+.domeniu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+label, legend{
+    font-weight: bold;
+}
+
+.input {
+	outline: none;
+	border: none;
+	width: 350px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #cecfcf;
+	margin: 5px 0;
+	font-size: 14px;
+}
