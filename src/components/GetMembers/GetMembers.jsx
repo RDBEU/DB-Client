@@ -115,9 +115,6 @@ function GetMembers() {
     
     return (
         <div className={styles.container}>
-            <button onClick={() => {
-                console.log(queryParameters)  
-            }}>Test</button>
             <button className={styles.wrapper} onClick={() => setFormVisible(!formVisible)}><UilSearch className={styles.icon} /> Cauta membru</button>
             {formVisible ?
                 <form className={styles.searchingForm} onSubmit={handleSubmit}>

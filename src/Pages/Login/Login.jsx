@@ -38,7 +38,7 @@ function Login() {
         <div className={styles.loginContainer}>
             <div className={styles.left}>
                 <form className={styles.form_container} onSubmit={handleSubmit}>
-                    <input type="email" placeholder="Email" name="email" onChange={handleChange} value={data.name} required className={styles.input} />
+                    <input type="email" placeholder="Email" name="email" onChange={handleChange} value={data.email} required className={styles.input} />
                     <div className={styles.passCont}>
                         <input
                             type={visible2 ? "text" : "password"}
