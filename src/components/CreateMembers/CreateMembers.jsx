@@ -222,6 +222,7 @@ function CreateMembers() {
                         value={data.plata_cotizatie}
                         className={styles.input} />
                     <button type="submit" className={styles.wrapper}>Adauga</button>
+                    <div>{err}</div>
                 </form>
                 : null
             }
