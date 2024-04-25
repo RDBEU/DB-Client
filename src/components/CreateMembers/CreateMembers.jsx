@@ -102,7 +102,6 @@ function CreateMembers() {
                         name="phone"
                         onChange={handleChange}
                         value={data.phone}
-                        required
                     />
                     <label htmlFor="judet">Judet</label>
                     <input
