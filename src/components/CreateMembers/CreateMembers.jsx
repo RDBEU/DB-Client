@@ -160,6 +160,7 @@ function CreateMembers() {
                     <label htmlFor="nivel_studii">Nivel Studii</label>
                     <select name="nivel_studii" id="nivel_studii" value={data.nivel_studii} onChange={handleChange}>
                         <option value=""> </option>
+                        <option value="Fără studii">Fără studii</option>
                         <option value="Medii">Medii</option>
                         <option value="Generale">Generale</option>
                         <option value="Superioare">Superioare</option>
